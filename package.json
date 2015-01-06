@@ -15,5 +15,8 @@
     "oauth"
   ],
   "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
-  "license": "bsd"
+  "license": "bsd",
+  "dependencies": {
+    "request": "^2.51.0"
+  }
 }
