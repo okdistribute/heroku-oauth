@@ -28,3 +28,4 @@ herokuOAuth.on('token', function(token, serverResponse) {
   console.log('here is your shiny new heroku oauth token', token)
   serverResponse.end(JSON.stringify(token))
 })
+```
