@@ -14,6 +14,7 @@ var herokuOauth = require('heorku-oauth')({
   loginURI: '/heroku/login', // optional default
   callbackURI: '/heroku/callback', // optional default
   scope: 'global' // optional default
+})
 
 require('http').createServer(function(req, res) {
   if (req.url.match(/heroku/login/)) return herokuOAuth.login(req, res)
